@@ -1,0 +1,125 @@
+body,html{
+    min-height: 100%;
+}
+body{
+    background: linear-gradient(to bottom, rgba(234,88,4,1) 0%,rgba(234,40,3,1) 51%,rgba(234,88,4,1) 100%);
+}
+.form_wizard{
+    margin-top: 100px;
+    margin-bottom: 50px
+}
+.form_wizard > div{
+    border-radius: 10px;
+    background-color: white;
+    padding-bottom: 50px
+}
+.form_wizard header{
+    position: relative;
+    padding-top: 15px
+}
+.form_wizard header .steps_liste_view{
+    position: absolute;
+    left: 0;
+    right: 0;
+    overflow-x: hidden;
+    margin: 0px;
+}
+.form_wizard header .steps_liste_view .item{
+    border: 2px solid #fff;
+    transform: skewX(-30deg);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+.form_wizard header .steps_liste_view .active{
+    background-color: red
+}
+.form_wizard header .steps_liste_view .disable{
+    background: #959595;
+}
+.form_wizard header .steps_liste_view .item img{
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin: auto;
+    transform: skewX(30deg);
+}
+.form_wizard header .steps_liste_view .item span{
+    transform: skewX(30deg);
+    display: block
+}
+.form_wizard header .desc{
+    text-align: center
+}
+.form_wizard header .desc strong{
+    font-size: 25px;
+    font-weight: 300;
+    color: #ea2803;
+    line-height: 30px;
+}
+.form_wizard header .desc em{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #888;
+    line-height: 30px;
+}
+.form_wizard section{
+    margin-top: 120px
+}
+.form_wizard section .form_item .header strong{
+    float: left;
+    font-size: 20px;
+    font-weight: 300;
+    color: #ea2803;
+    line-height: 26px;
+}
+.form_wizard section .form_item .header em{
+    font-size: 18px;
+    font-weight: 300;
+    color: #555;
+    line-height: 26px;
+}
+.form_wizard section .form_item label{
+    margin-top: 20px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #888;
+    line-height: 30px;
+}
+.form_wizard section .form_item .form-control{
+    height: 45px
+}
+.form_wizard footer input{
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+    line-height: 30px;
+    width: 120px;
+    margin: 15px
+}
+.form_wizard footer .pre_btn{
+    background-color: #a9a9a5;
+}
+.form_wizard footer .nxt_btn{
+    background-color: red;
+}
+@media(max-width: 950px){
+    .form_wizard{
+        padding-left: 20px;
+        padding-right: 20px
+    }
+    .form_wizard section{
+        margin-top: 250px
+    }
+    .form_wizard footer input{
+        width: 100%
+    }
+}

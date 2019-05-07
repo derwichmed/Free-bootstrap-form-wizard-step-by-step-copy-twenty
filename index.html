@@ -1,0 +1,418 @@
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/my_style.css"/>
+        <link rel="stylesheet" href="../team_profile/css/my_style.css"/>
+        <script src="js/jquery-3.3.1.min (1).js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="js/responsiv.js"></script>
+        </head>
+        <body class="container-fluid">
+            <section class="row form_wizard justify-content-center">
+                <div class="col-lg-5"> 
+                    <header class="container-fluid">
+                        <div class="row desc">
+                            <div class="col-lg">
+                                <strong>
+                                    SIGN UP OFFICE EMPLOYEE ACCOUNT
+                                </strong>
+                                <br/>
+                                <em>
+                                    Fill all form field to go next step
+                                </em>
+                            </div>
+                        </div>
+                        <div class="row steps_liste_view">
+                            <div class="item col active">
+                                <img src="img/user_icon_active.png"/>
+                                <span>
+                                    Personnal
+                                </span>
+                            </div>
+                            <div class="item col disable">
+                                <img src="img/contact_icon_disable.png"/>
+                                <span>
+                                    Contact
+                                </span>
+                            </div>
+                            <div class="item col disable">
+                                <img src="img/official_icon_disable.png"/>
+                                <span>
+                                    Official
+                                </span>
+                            </div>
+                            <div class="item col disable">
+                                <img src="img/payement_icon_disable.png"/>
+                                <span>
+                                    Payement
+                                </span>
+                            </div>
+                        </div>
+                    </header>
+                    <section class="container-fluid">
+                        <!-- form item personnel -->
+                        <div class="row form_item form_personnel">
+                            <div class="col-lg">
+                                <div class="row justify-content-between header">
+                                    <div>
+                                        <strong>
+                                            Personnel information
+                                        </strong>
+                                    </div>
+                                    <div>
+                                        <em>
+                                            Step 1 / 4
+                                        </em>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>
+                                            First name:
+                                        </label>
+                                        <input type="text" placeholder="First name:" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>
+                                            Last name:
+                                        </label>
+                                        <input type="text" placeholder="First name:" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <label>
+                                                        Gender:
+                                                    </label>
+                                                </td>
+                                                <td>
+                                                    <input type="radio"/>
+                                                    <label>
+                                                        Male:
+                                                    </label>
+                                                </td>
+                                                <td>
+                                                    <input type="radio"/>
+                                                    <label>
+                                                        Femal
+                                                    </label>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>
+                                            Date of birth:
+                                        </label>
+                                        <input type="date" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>
+                                            Maratial Status::
+                                        </label>
+                                        <select class="form-control">
+                                            <option>
+                                                Maried
+                                            </option>
+                                            <option>
+                                                Divorsed
+                                            </option>
+                                            <option>
+                                               Un-Maried
+                                            </option>
+                                            <option>
+                                                Widowed
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>
+                                            User name:
+                                        </label>
+                                        <input type="text" class="form-control" placeholder="User name"/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>
+                                            Password:
+                                        </label>
+                                        <input type="password" class="form-control" placeholder="Password"/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>
+                                            Verif Password:
+                                        </label>
+                                        <input type="password" class="form-control" placeholder="Verif Password"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- form item contact -->
+                        <div class="row form_item form_contact" style="display: none">
+                            <div class="col-lg">
+                                <div class="row justify-content-between header">
+                                    <div>
+                                        <strong>
+                                            Contact information
+                                        </strong>
+                                    </div>
+                                    <div>
+                                        <em>
+                                            Step 2 / 4
+                                        </em>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>
+                                            Email:
+                                        </label>
+                                        <input type="email" placeholder="Email" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>
+                                            Phone:
+                                        </label>
+                                        <input type="text" placeholder="Phone" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>
+                                            Adress:
+                                        </label>
+                                        <input type="text" placeholder="Adress" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>
+                                            Zib code:
+                                        </label>
+                                        <input type="text" placeholder="Zib code" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>
+                                            City:
+                                        </label>
+                                        <input type="text" placeholder="City" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>
+                                            State:
+                                        </label>
+                                        <input type="text" placeholder="State" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>
+                                            Country:
+                                        </label>
+                                        <input type="text" placeholder="Country" class="form-control"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- form item official -->
+                        <div class="row form_item form_official" style="display: none">
+                            <div class="col-lg">
+                                <div class="row justify-content-between header">
+                                    <div>
+                                        <strong>
+                                            Official information
+                                        </strong>
+                                    </div>
+                                    <div>
+                                        <em>
+                                            Step 3 / 4
+                                        </em>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>
+                                            Employee ID:
+                                        </label>
+                                        <input type="text" placeholder="Employee ID" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>
+                                            Designation
+                                        </label>
+                                        <input type="text" placeholder="Designation" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>
+                                            Department
+                                        </label>
+                                        <input type="text" placeholder="Department" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>
+                                            Working Hours:
+                                        </label>
+                                        <input type="text" placeholder="Working Hours" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>
+                                            Joining Date:
+                                        </label>
+                                        <input type="date" class="form-control"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- form item payement -->
+                        <div class="row form_item form_personnel" style="display: none">
+                            <div class="col-lg">
+                                <div class="row justify-content-between header">
+                                    <div>
+                                        <strong>
+                                            Payement information
+                                        </strong>
+                                    </div>
+                                    <div>
+                                        <em>
+                                            Step 4 / 4
+                                        </em>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>
+                                            Bank Name:
+                                        </label>
+                                        <input type="text" placeholder="Bank Name" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <label>
+                                                        Payement type:
+                                                    </label>
+                                                </td>
+                                                <td>
+                                                    <input type="radio"/>
+                                                    <label>
+                                                        Master cart
+                                                    </label>
+                                                </td>
+                                                <td>
+                                                    <input type="radio"/>
+                                                    <label>
+                                                        Visa cart
+                                                    </label>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>
+                                            Holder name:
+                                        </label>
+                                        <input type="date" class="form-control" placeholder="Holder name"/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>
+                                            Card Number:
+                                        </label>
+                                        <input type="number" class="form-control" placeholder="Card Number"/>
+                                    </div>
+                                    <div class="col-lg">
+                                        <label>
+                                            CVC:
+                                        </label>
+                                        <input type="number" class="form-control" placeholder="CVC"/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>
+                                            Expiry Date:
+                                        </label>
+                                        <input type="date" class="form-control"/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>
+                                            User name:
+                                        </label>
+                                        <input type="text" class="form-control" placeholder="User name"/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>
+                                            Password:
+                                        </label>
+                                        <input type="password" class="form-control" placeholder="Password"/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <label>
+                                            Verif Password:
+                                        </label>
+                                        <input type="password" class="form-control" placeholder="Verif Password"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <footer class="container-fluid">
+                        <div class="row justify-content-end">
+                            <input type="button" value="Previous" class="btn pre_btn"/>
+                            <input type="button" value="Next" class="btn nxt_btn"/>
+                        </div>
+                    </footer>
+                </div>
+            </section>
+        </body>
+</html>
